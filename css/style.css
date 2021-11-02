@@ -145,6 +145,10 @@ ol, ul, li, a {
     color: white;
 }
 
+.header__menu_yet{
+    display: none;
+}
+
 /*header__main__content..................................*/
 
 
@@ -223,6 +227,14 @@ ol, ul, li, a {
     line-height: 16px;
     color: #0F2438;
     margin-left: 10px;
+}
+/**/
+
+.header__main__contWhats{
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*WhatsApp*/
@@ -384,4 +396,10 @@ ol, ul, li, a {
     height: 32px;
     display: flex;
     justify-content: space-between;
+}
+
+/*..............................................................*/
+
+.btn{
+    display: none;
 }

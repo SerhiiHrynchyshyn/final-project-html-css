@@ -1,0 +1,161 @@
+@media screen and (max-width: 400px) {
+    .wrapper__top__menu,
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    .nav__top__left .nav__top__location::before {
+        display: none;
+    }
+
+    /*header top*/
+    .d-none {
+        display: none;
+    }
+
+    .header__navbar_left {
+        width: auto;
+    }
+
+    .header__menu_yet {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .header__navbar_right {
+        display: none;
+    }
+
+    /*main-content*/
+    .mb__version-none {
+        display: none;
+    }
+
+
+    /*    logo*/
+    .header__main__content {
+        align-items: flex-start;
+        margin-top: 10px;
+        height: auto;
+    }
+
+    .mb__version__logo {
+        width: 100%;
+    }
+
+    .logo__text {
+        margin: 0;
+    }
+
+    .container__logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .container__logo img {
+        width: 36.78px;
+        height: 40.2px;
+        margin-right: 5px;
+    }
+
+    .container__logo p {
+        letter-spacing: -0.5px;
+    }
+
+    /* forms and right*/
+    .header__main__contWhats {
+        width: auto;
+        height: 63px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
+    .header__main__block .container__forms h2 {
+        font-size: 15px;
+        line-height: 16px;
+        color: #0F2438;
+
+    }
+
+    .header__main__block .container__forms p {
+        font-size: 11px;
+        color: #0F2438;
+    }
+
+    .container__whatsApp p {
+        width: 108px;
+        height: 12px;
+        font-family: Rubik;
+        font-size: 9px;
+        line-height: 12px;
+        color: #000000;
+    }
+
+    .container__whatsApp {
+        padding: 4px 10px;
+    }
+
+
+    .header__main__content {
+        /*height: auto;*/
+    }
+
+
+    /*    header block 2----------------*/
+    .header__logHeartBasket {
+        display: none;
+    }
+
+    .header__footer__box {
+        width: 34px;
+        height: 34px;
+        padding: 10px 7px;
+    }
+
+    .header__footer__box::after {
+
+        display: none;
+    }
+
+    .header__footer__forms > input[type=text] {
+        width: 213px;
+        height: 34px;
+    }
+
+    .header__footer__button {
+        width: 34px;
+        height: 34px;
+        padding: 11px;
+    }
+
+
+    .header__footer__forms > input[type=text] {
+        width: 100%;
+        height: 34px;
+    }
+
+
+
+    .header__footer__forms{
+        margin-right: 0;
+    }
+
+
+    .header__footer__button{
+         display: none;
+    }
+
+    .btn{
+        display: block;
+    }
+
+    input[placeholder]{
+        padding-right: 75px;
+        text-overflow:ellipsis;
+    }
+
+
+}
