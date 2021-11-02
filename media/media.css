@@ -32,7 +32,6 @@
         display: none;
     }
 
-
     /*    logo*/
     .header__main__content {
         align-items: flex-start;
@@ -98,12 +97,6 @@
         padding: 4px 10px;
     }
 
-
-    .header__main__content {
-        /*height: auto;*/
-    }
-
-
     /*    header block 2----------------*/
     .header__logHeartBasket {
         display: none;
@@ -116,13 +109,7 @@
     }
 
     .header__footer__box::after {
-
         display: none;
-    }
-
-    .header__footer__forms > input[type=text] {
-        width: 213px;
-        height: 34px;
     }
 
     .header__footer__button {
@@ -130,25 +117,21 @@
         height: 34px;
         padding: 11px;
     }
-
-
-    .header__footer__forms > input[type=text] {
-        width: 100%;
-        height: 34px;
-    }
-
-
-    .header__footer__forms {
-        margin-right: 0;
-    }
-
-
     .header__footer__button {
         display: none;
     }
 
     .btn {
         display: block;
+    }
+
+    .header__footer__forms > input[type=text] {
+        width: 100%;
+        height: 34px;
+    }
+
+    .header__footer__forms {
+        margin-right: 0;
     }
 
     input[placeholder] {
