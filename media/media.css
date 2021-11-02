@@ -138,23 +138,22 @@
     }
 
 
-
-    .header__footer__forms{
+    .header__footer__forms {
         margin-right: 0;
     }
 
 
-    .header__footer__button{
-         display: none;
+    .header__footer__button {
+        display: none;
     }
 
-    .btn{
+    .btn {
         display: block;
     }
 
-    input[placeholder]{
+    input[placeholder] {
         padding-right: 75px;
-        text-overflow:ellipsis;
+        text-overflow: ellipsis;
     }
 
 

@@ -145,7 +145,7 @@ ol, ul, li, a {
     color: white;
 }
 
-.header__menu_yet{
+.header__menu_yet {
     display: none;
 }
 
@@ -228,9 +228,10 @@ ol, ul, li, a {
     color: #0F2438;
     margin-left: 10px;
 }
+
 /**/
 
-.header__main__contWhats{
+.header__main__contWhats {
     width: 430px;
     display: flex;
     justify-content: space-between;
@@ -400,6 +401,6 @@ ol, ul, li, a {
 
 /*..............................................................*/
 
-.btn{
+.btn {
     display: none;
 }
