@@ -117,6 +117,7 @@
         height: 34px;
         padding: 11px;
     }
+
     .header__footer__button {
         display: none;
     }
@@ -137,6 +138,238 @@
     input[placeholder] {
         padding-right: 75px;
         text-overflow: ellipsis;
+    }
+
+
+    /*slider*/
+    .slider__action {
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__slider {
+        width: 335px;
+        height: 195px;
+        padding: 7px;
+        margin-bottom: 10px;
+    }
+
+    .sleder__left {
+        width: 144px;
+        height: auto;
+        /*margin-left: 15px;*/
+    }
+
+
+    .sleder__left h5 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0A1A2C;
+        margin-bottom: 5px;
+
+    }
+
+    .sleder__left p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        text-decoration-line: underline;
+        color: #717171;
+        margin-bottom: 15px;
+    }
+
+
+    .sleder__left > span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 23px;
+        color: #005BB9;
+    }
+
+    .sleder__left > span > span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+    }
+
+    .sleder__left .slider__button {
+        width: 124px;
+        height: 34px;
+        left: 30px;
+        top: 295px;
+        background: #005BB9;
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+
+    .sleder__left .slider__button img {
+        margin-right: 7px;
+    }
+
+    .sleder__img {
+        width: auto;
+        height: auto;
+    }
+
+    .sleder__img img {
+        width: 131px;
+        height: 111px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .slider__radio > input {
+        width: 12px;
+        height: 12px;
+        margin: 10px 5px;
+    }
+
+
+    /*    */
+    .main__slider__content {
+        justify-content: space-around;
+        height: 155px;
+    }
+
+    .main__slider__content::after {
+        display: none;
+    }
+
+    .main__slider__content::before {
+        display: none;
+    }
+
+    /*  main__action під слайдом*/
+    .main__action {
+        flex-direction: row;
+    }
+
+    .mb__margin {
+        margin-right: 10px;
+    }
+
+    .action {
+        width: 250px;
+        height: 145px;
+
+    }
+
+    /*    */
+    .action h6 {
+        font-size: 12px;
+        line-height: 14px;
+        color: #0F2438;
+    }
+
+    .action__img-txt {
+        margin-top: 10px;
+    }
+
+    .action__img-txt img {
+        width: 58px;
+        height: 54px;
+    }
+
+    .action__block-txt p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #0A1A2C;
+    }
+
+    .action__block-txt > span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        color: #525252;
+    }
+
+    .action__cart > span {
+        font-size: 15px;
+        margin-right: 16px;
+    }
+
+    .action__cart > span > span {
+        font-size: 12px;
+    }
+
+    .action__cart-img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .action__cart-img img {
+        width: 12px;
+        height: 12px;
+    }
+
+    /*  section__slider-two  */
+    .slider__action {
+        margin-bottom: 20px;
+    }
+
+    /**/
+    .directory__block {
+        width: 250px;
+        height: 126px;
+        margin-right: 10px;
+    }
+
+    .directory__content h6 {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+
+    }
+
+    .directory__content > span {
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 15px;
+    }
+
+
+    .directory__content > button {
+        width: 72px;
+        height: 24px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .directory__img img {
+        width: 74px;
+        height: 97px;
+    }
+
+
+    .arrow__left > span::before {
+        display: none;
+    }
+
+    .arrow__right > span::after {
+        display: none;
+    }
+
+    .directory__content {
+        width: 156px;
+        padding-left: 15px;
     }
 
 

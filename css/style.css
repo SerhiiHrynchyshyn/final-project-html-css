@@ -593,6 +593,10 @@ ol, ul, li, a {
     margin-right: 15px;
 }
 
+.action__img-txt {
+    margin-top: 18px;
+}
+
 .action__block-txt > p {
     font-family: Roboto;
     font-style: normal;
@@ -650,3 +654,113 @@ ol, ul, li, a {
     justify-content: center;
     align-items: center;
 }
+
+/* directory__main__selective  */
+
+/*...before and after............*/
+
+.section__slider-two {
+    width: 100%;
+}
+
+.directory__main__selective {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.directory__block {
+    position: relative;
+
+    width: 431px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.directory__content {
+    width: auto;
+    height: 124px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.directory__content h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #0A1A2C;
+    margin-bottom: 10px;
+}
+
+.directory__content > span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+    margin-bottom: 12px;
+}
+
+.directory__content > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 86px;
+    height: 26px;
+    background: #005BB9;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.directory__img img {
+    width: 154px;
+    height: 202px;
+}
+
+.arrow__left > span::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url("../img/slider-arrow-left.png") no-repeat center #FFFFFF;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.15));
+    position: absolute;
+    top: 40%;
+    left: -5%;
+}
+
+.arrow__right > span::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url("../img/slider-arrow-right.png") no-repeat center #FFFFFF;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.15));
+    position: absolute;
+    top: 40%;
+    right: -5%;
+}
+
