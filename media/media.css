@@ -346,30 +346,138 @@
     }
 
 
-/*    btn*/
-
-    .section__slider-two{
+    /*    btn*/
+    .section__slider-two {
         margin-bottom: 30px;
     }
-    .btnSectionBG{
+
+    .btnSectionBG {
         font-size: 14px;
         line-height: 16px;
         padding: 10px 20px;
     }
 
 
-    .btnSection{
+    .btnSection {
         font-size: 14px;
         line-height: 16px;
         padding: 10px 20px;
     }
 
-    .btnSectionCentr{
+    .btnSectionCentr {
         padding: 10px 20px;
     }
 
     /*/section cards/*/
+    .cards__wrap__tree {
+        display: flex;
+    }
 
+    .d_card-none {
+        display: none;
+    }
+
+    .cards__wrap__tree-hr {
+        display: block;
+    }
+
+    /*    .................*/
+    .card__wrap {
+        width: 138px;
+        height: 266px;
+    }
+
+    .sell {
+        padding: 1px 2px;
+        font-size: 10px;
+    }
+
+    .card__wrap > img {
+        width: 138px;
+        height: 120px;
+        margin-bottom: 2px;
+    }
+
+    .card__star > img {
+        width: 12px;
+        height: 12px;
+        margin-right: 2px;
+    }
+
+    .card__star > span {
+        font-size: 10px;
+        margin-right: 6px;
+    }
+
+    .card__star > p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .card__wrap > p {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .card__wrap > span {
+        margin-top: 34px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .card__wrap > a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .card_icon_btn .slider__button {
+        width: 110px;
+        height: 35px;
+        margin-right: 11px;
+        font-size: 10px;
+    }
+
+    .card_icon_btn .slider__button > img {
+        width: 12px;
+        height: 12px;
+        margin-right: 7px;
+    }
+
+    .card__fluctuation {
+        display: none;
+    }
+
+
+    /*    cards two*/
+    .cards__sell {
+        margin-top: 27px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-right: 5px;
+    }
+
+    .cards__sell > span > span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .cards__wrap__tree,
+    .cards__wrap__block {
+        margin-top: 15px;
+        margin-bottom: 25px
+
+    }
+
+/*    btn*/
+
+    .cards__wrap__footer button{
+        font-size: 12px;
+        line-height: 14px;
+        padding: 10px 40px;
+    }
 
 
 

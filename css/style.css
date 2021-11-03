@@ -823,6 +823,19 @@ ol, ul, li, a {
     height: 418px;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.sell{
+    padding: 3px 6px;
+    background: #FFB800;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    position: absolute;
 }
 
 
@@ -956,7 +969,8 @@ ol, ul, li, a {
 }
 
 
-.cards__wrap__tree{
+.cards__wrap__tree,
+.cards__wrap__tree-hr{
     display: none;
 }
 
@@ -964,21 +978,6 @@ ol, ul, li, a {
     border: 1px solid #E1E5F8;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*/section btn/-------------------------------------------------------*/
 
