@@ -151,7 +151,6 @@ ol, ul, li, a {
 
 /*header__main__content..................................*/
 
-
 .header__main__content {
     width: 100%;
     height: 83px;
@@ -228,8 +227,6 @@ ol, ul, li, a {
     color: #0F2438;
     margin-left: 10px;
 }
-
-/**/
 
 .header__main__contWhats {
     width: 430px;
@@ -353,7 +350,6 @@ ol, ul, li, a {
     padding: 18px 30px;
 }
 
-/**/
 .header__foot__user,
 .header__foot__favorites,
 .header__foot__basket {
@@ -398,7 +394,6 @@ ol, ul, li, a {
     display: flex;
     justify-content: space-between;
 }
-
 
 .btn {
     display: none;
@@ -463,7 +458,6 @@ ol, ul, li, a {
 
 .sleder__left > h5 {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     color: #0A1A2C;
@@ -472,8 +466,6 @@ ol, ul, li, a {
 
 .sleder__left > p {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 23px;
     text-decoration-line: underline;
@@ -483,7 +475,6 @@ ol, ul, li, a {
 
 .sleder__left > span {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 37px;
     line-height: 43px;
@@ -492,8 +483,6 @@ ol, ul, li, a {
 
 .sleder__left > span > span {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 22px;
     line-height: 26px;
     text-decoration-line: line-through;
@@ -575,7 +564,6 @@ ol, ul, li, a {
 
 .action h6 {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -599,7 +587,6 @@ ol, ul, li, a {
 
 .action__block-txt > p {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
@@ -608,14 +595,10 @@ ol, ul, li, a {
 
 .action__block-txt > span {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #525252;
-
 }
-
 /**/
 .action__cart {
     width: 100%;
@@ -626,7 +609,6 @@ ol, ul, li, a {
 
 .action__cart > span {
     font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
@@ -636,8 +618,6 @@ ol, ul, li, a {
 
 .action__cart > span > span {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-decoration-line: line-through;
@@ -647,17 +627,12 @@ ol, ul, li, a {
 .action__cart-img {
     width: 57px;
     height: 49px;
-
     background: #005BB9;
     border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-/* directory__main__selective  */
-
-/*...before and after............*/
 
 .section__slider-two {
     width: 100%;
@@ -672,7 +647,6 @@ ol, ul, li, a {
 
 .directory__block {
     position: relative;
-
     width: 431px;
     height: 184px;
     background: #FFFFFF;
@@ -694,7 +668,6 @@ ol, ul, li, a {
 
 .directory__content h6 {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -706,7 +679,6 @@ ol, ul, li, a {
 
 .directory__content > span {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -728,8 +700,6 @@ ol, ul, li, a {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    display: flex;
-    align-items: center;
     color: #FFFFFF;
 }
 
@@ -766,19 +736,20 @@ ol, ul, li, a {
 
 /*  section__button ----*/
 
-.section__slider-two{
+.section__slider-two {
     margin-bottom: 70px;
 }
 
-.section__button{
+.section__button {
     width: 100%;
 }
-.section__forms__btn{
+
+.section__forms__btn {
     width: 100%;
     display: flex;
 }
 
-.btnSectionBG{
+.btnSectionBG {
     padding: 16px 32px;
     background: #005BB9;
     border-radius: 6px;
@@ -789,7 +760,7 @@ ol, ul, li, a {
     line-height: 23px;
 }
 
-.btnSection{
+.btnSection {
     padding: 16px 32px;
     border: 2px solid #005BB9;
     box-sizing: border-box;
@@ -798,27 +769,29 @@ ol, ul, li, a {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
+    background: none;
 }
 
-.btnSectionCentr{
+.btnSectionCentr {
     padding: 16px 32px;
     margin: 0 20px;
 }
 
 /*/section cards/-------------------------------------------------------*/
 
-.container__cards{
+.container__cards {
     width: 100%;
     margin-top: 30px;
 }
-.cards__wrap__block{
+
+.cards__wrap__block {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 }
 
-.card__wrap{
+.card__wrap {
     width: 316px;
     height: 418px;
     display: flex;
@@ -826,11 +799,10 @@ ol, ul, li, a {
     position: relative;
 }
 
-.sell{
+.sell {
     padding: 3px 6px;
     background: #FFB800;
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
@@ -839,24 +811,25 @@ ol, ul, li, a {
 }
 
 
-.card__wrap > img{
+.card__wrap > img {
     width: 100%;
     height: 222px;
     margin-bottom: 15px;
 }
 
-.card__star{
+.card__star {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.card__star > img{
+.card__star > img {
     width: 16px;
     height: 16px;
     margin-right: 3px;
 }
-.card__star > span{
+
+.card__star > span {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -867,21 +840,17 @@ ol, ul, li, a {
 }
 
 
-
-.card__star > p{
+.card__star > p {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
 
     color: #B0B0B0;
 }
 
-.card__wrap > p{
+.card__wrap > p {
     margin-top: 10px;
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
@@ -889,28 +858,28 @@ ol, ul, li, a {
 }
 
 
-.card__wrap > span{
+.card__wrap > span {
     margin-top: 46px;
     margin-bottom: 20px;
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 15px;
     color: #000000;
 }
 
-.card__wrap > a{
+.card__wrap > a {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 15px;
+}
+
+.card__wrap > span > a {
     color: #005BB9;
 }
+
 /**/
 
-.card_icon_btn{
+.card_icon_btn {
     display: flex;
     align-items: center;
 }
@@ -931,26 +900,24 @@ ol, ul, li, a {
     margin-right: 8px;
 }
 
-.card__heart{
+.card__heart {
     margin-right: 20px;
 }
+
 /* card two*/
 
-
-.cards__sell{
+.cards__sell {
     margin-top: 40px;
     margin-bottom: 15px;
     font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
     color: #FFB800;
 }
-.cards__sell > span > span{
+
+.cards__sell > span > span {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-decoration-line: line-through;
@@ -959,43 +926,136 @@ ol, ul, li, a {
 
 /**/
 
-.d_card-none > span{
+.d_card-none > span {
     margin-top: 21px;
 }
 
-
-.cards__wrap__two{
+.cards__wrap__two {
     margin-top: 40px;
 }
 
-
 .cards__wrap__tree,
-.cards__wrap__tree-hr{
+.cards__wrap__tree-hr {
     display: none;
 }
 
-.container__cards > hr{
+.container__cards > hr {
     border: 1px solid #E1E5F8;
-
 }
 
 /*/section btn/-------------------------------------------------------*/
 
-.cards__wrap__footer{
+.cards__wrap__footer {
     width: 100%;
     text-align: center;
+    margin-bottom: 80px;
 }
 
-.cards__wrap__footer button{
+.cards__wrap__footer button {
     background: #FFFFFF;
     border: 2px solid #005BB9;
     box-sizing: border-box;
     border-radius: 6px;
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: #005BB9;
     padding: 15px 40px;
 }
+
+/*section news----------------------------*/
+
+.section__news {
+    width: 100%;
+    /*height: 287px;*/
+    margin-bottom: 120px;
+}
+
+.section__news h3 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.section__news .rectangle {
+    width: 100%;
+    height: 9px;
+    background: #F5F5F5;
+
+}
+.news__container{
+    width: 100%;
+    position: relative;
+    top: -9px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle {
+    width: 100%;
+}
+
+.news__wrap {
+    max-width: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wrap__box {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #000;
+    padding: 1px 20px 2px 19px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.news__wrap > a {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #005BB9;
+    margin-bottom: 20px;
+}
+
+.news__wrap > p {
+    width: 287px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    color: #242424;
+}
+/**/
+
+.news__wrap2 > a{
+    max-width: 195px;
+}
+
+.news__wrap2 > p{
+    width: 312px;
+}
+/*footer*/
+
+.footer{
+    height: 408px;
+    background: #0C1A2A;
+}
+
+
+
+
+
+

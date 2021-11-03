@@ -78,7 +78,6 @@
         font-size: 15px;
         line-height: 16px;
         color: #0F2438;
-
     }
 
     .header__main__block .container__forms p {
@@ -159,15 +158,12 @@
     .sleder__left {
         width: 144px;
         height: auto;
-        /*margin-left: 15px;*/
     }
-
 
     .sleder__left h5 {
         font-size: 16px;
         line-height: 19px;
         margin-bottom: 5px;
-
     }
 
     .sleder__left p {
@@ -175,7 +171,6 @@
         line-height: 12px;
         margin-bottom: 15px;
     }
-
 
     .sleder__left > span {
         font-size: 23px;
@@ -217,8 +212,6 @@
         margin: 10px 5px;
     }
 
-
-    /*    */
     .main__slider__content {
         justify-content: space-around;
         height: 155px;
@@ -244,10 +237,8 @@
     .action {
         width: 250px;
         height: 145px;
-
     }
 
-    /*    */
     .action h6 {
         font-size: 12px;
         line-height: 14px;
@@ -297,7 +288,6 @@
         margin-bottom: 20px;
     }
 
-    /**/
     .directory__block {
         width: 250px;
         height: 126px;
@@ -309,7 +299,6 @@
         line-height: 19px;
         margin-top: 15px;
         margin-bottom: 10px;
-
     }
 
     .directory__content > span {
@@ -317,7 +306,6 @@
         line-height: 14px;
         margin-bottom: 15px;
     }
-
 
     .directory__content > button {
         width: 72px;
@@ -330,7 +318,6 @@
         width: 74px;
         height: 97px;
     }
-
 
     .arrow__left > span::before {
         display: none;
@@ -345,7 +332,6 @@
         padding-left: 15px;
     }
 
-
     /*    btn*/
     .section__slider-two {
         margin-bottom: 30px;
@@ -356,7 +342,6 @@
         line-height: 16px;
         padding: 10px 20px;
     }
-
 
     .btnSection {
         font-size: 14px;
@@ -449,7 +434,6 @@
         display: none;
     }
 
-
     /*    cards two*/
     .cards__sell {
         margin-top: 27px;
@@ -468,17 +452,63 @@
     .cards__wrap__block {
         margin-top: 15px;
         margin-bottom: 25px
-
     }
 
-/*    btn*/
-
-    .cards__wrap__footer button{
+    /*    btn*/
+    .cards__wrap__footer button {
         font-size: 12px;
         line-height: 14px;
         padding: 10px 40px;
     }
 
+    /*    news section*/
+    .section__news h3 {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    .section__news .rectangle {
+        display: none;
+    }
+
+    .news__container {
+        width: 100%;
+        position: static;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news__wrap > img {
+        display: none;
+    }
+
+    .wrap__box {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 2px 8px;
+        margin-bottom: 8px;
+    }
+
+    .news__wrap > a {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+
+    .news__wrap > p {
+        width: 286px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    .news__wrap2 > a {
+        max-width: 250px;
+    }
 
 
 }
