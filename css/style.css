@@ -764,3 +764,239 @@ ol, ul, li, a {
     right: -5%;
 }
 
+/*  section__button ----*/
+
+.section__slider-two{
+    margin-bottom: 70px;
+}
+
+.section__button{
+    width: 100%;
+}
+.section__forms__btn{
+    width: 100%;
+    display: flex;
+}
+
+.btnSectionBG{
+    padding: 16px 32px;
+    background: #005BB9;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.btnSection{
+    padding: 16px 32px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #005BB9;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.btnSectionCentr{
+    padding: 16px 32px;
+    margin: 0 20px;
+}
+
+/*/section cards/-------------------------------------------------------*/
+
+.container__cards{
+    width: 100%;
+    margin-top: 30px;
+}
+.cards__wrap__block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card__wrap{
+    width: 316px;
+    height: 418px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card__wrap > img{
+    width: 100%;
+    height: 222px;
+    margin-bottom: 15px;
+}
+
+.card__star{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card__star > img{
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+}
+.card__star > span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFB800;
+    margin-right: 10px;
+}
+
+
+
+.card__star > p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #B0B0B0;
+}
+
+.card__wrap > p{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+
+
+.card__wrap > span{
+    margin-top: 46px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.card__wrap > a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #005BB9;
+}
+/**/
+
+.card_icon_btn{
+    display: flex;
+    align-items: center;
+}
+
+.card_icon_btn .slider__button {
+    width: 160px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.card_icon_btn .slider__button > img {
+    margin-right: 8px;
+}
+
+.card__heart{
+    margin-right: 20px;
+}
+/* card two*/
+
+
+.cards__sell{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFB800;
+}
+.cards__sell > span > span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+/**/
+
+.d_card-none > span{
+    margin-top: 21px;
+}
+
+
+.cards__wrap__two{
+    margin-top: 40px;
+}
+
+
+.cards__wrap__tree{
+    display: none;
+}
+
+.container__cards > hr{
+    border: 1px solid #E1E5F8;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/section btn/-------------------------------------------------------*/
+
+.cards__wrap__footer{
+    width: 100%;
+    text-align: center;
+}
+
+.cards__wrap__footer button{
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #005BB9;
+    padding: 15px 40px;
+}

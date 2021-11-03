@@ -23,6 +23,10 @@
         margin-left: 15px;
     }
 
+    .sub__top__menu {
+        top: 15px;
+    }
+
     .header__navbar_right {
         display: none;
     }
@@ -49,7 +53,6 @@
 
     .container__logo {
         width: 100%;
-        display: flex;
         justify-content: flex-start;
     }
 
@@ -67,7 +70,6 @@
     .header__main__contWhats {
         width: auto;
         height: 63px;
-        display: flex;
         flex-direction: column-reverse;
         align-items: flex-end;
     }
@@ -90,7 +92,6 @@
         font-family: Rubik;
         font-size: 9px;
         line-height: 12px;
-        color: #000000;
     }
 
     .container__whatsApp {
@@ -163,45 +164,27 @@
 
 
     .sleder__left h5 {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #0A1A2C;
         margin-bottom: 5px;
 
     }
 
     .sleder__left p {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
         font-size: 10px;
         line-height: 12px;
-        text-decoration-line: underline;
-        color: #717171;
         margin-bottom: 15px;
     }
 
 
     .sleder__left > span {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
         font-size: 23px;
         line-height: 23px;
-        color: #005BB9;
     }
 
     .sleder__left > span > span {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
         font-size: 14px;
         line-height: 16px;
-        text-decoration-line: line-through;
-        color: #C2C5DA;
     }
 
     .sleder__left .slider__button {
@@ -209,8 +192,6 @@
         height: 34px;
         left: 30px;
         top: 295px;
-        background: #005BB9;
-        border-radius: 6px;
         margin-top: 10px;
     }
 
@@ -283,21 +264,13 @@
     }
 
     .action__block-txt p {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
         font-size: 12px;
         line-height: 18px;
-        color: #0A1A2C;
     }
 
     .action__block-txt > span {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
         font-size: 10px;
         line-height: 12px;
-        color: #525252;
     }
 
     .action__cart > span {
@@ -371,6 +344,33 @@
         width: 156px;
         padding-left: 15px;
     }
+
+
+/*    btn*/
+
+    .section__slider-two{
+        margin-bottom: 30px;
+    }
+    .btnSectionBG{
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 20px;
+    }
+
+
+    .btnSection{
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 20px;
+    }
+
+    .btnSectionCentr{
+        padding: 10px 20px;
+    }
+
+    /*/section cards/*/
+
+
 
 
 }
