@@ -511,4 +511,130 @@
     }
 
 
+    /*    footer*/
+    .footer__container {
+        margin-top: 25px;
+        margin-bottom: 23px;
+        flex-direction: column;
+    }
+
+
+    .footer__container__list {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .footer__catalog {
+        margin-bottom: 25px;
+    }
+
+    .footer__catalog .title__list {
+        margin-bottom: 10px;
+    }
+
+    .footer__catalog .title__list > a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__catalog ul > li {
+        margin-bottom: 10px;
+    }
+
+    .footer__catalog ul li > a {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    .visa_cards {
+        margin-top: 20px;
+    }
+
+    .footer__catalog ul > .visa_cards > a {
+        margin-bottom: 5px;
+    }
+
+    /*footer container contacts*/
+    .footer__container__contacts {
+        width: auto;
+    }
+
+    .footer__contacts {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .footer__contacts .title__list {
+        margin-bottom: 10px;
+    }
+
+    .footer__contacts .title__list > a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .nav__contacts {
+        margin-bottom: 25px;
+    }
+
+    .nav__contacts ul li a,
+    .nav__address ul li a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer__forms__text {
+        margin-bottom: 25px;
+    }
+
+    /**/
+    .footer__forms__text p {
+        width: 190px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__forms__text span {
+        font-size: 13px;
+        line-height: 15px;
+        margin-left: 0;
+    }
+
+    .footer__text {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .footer__text p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /*    forms*/
+    .footer__forms > input[type=email] {
+        padding-left: 10px;
+    }
+
+    .footer__forms > input[type=button] {
+        padding: 10px 15px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
+    .footer__social {
+        margin-top: 28px;
+        justify-content: flex-start;
+    }
+
+    .footer__footer {
+        margin-bottom: 23px;
+    }
+
+    .footer__footer p {
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
